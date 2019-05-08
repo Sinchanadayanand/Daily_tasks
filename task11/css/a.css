@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+
+  align-items: center;
+  background-color:white;
+  justify-content:flex-start;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+
+}
+img{
+  width: 150px;
+  height: 150px;
+}
+
+button{
+ 
+
+  background-color: grey;
+   width: 150px;
+
+}

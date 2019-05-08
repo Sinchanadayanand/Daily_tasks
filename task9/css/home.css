@@ -1,0 +1,26 @@
+body{
+	background-color: grey;
+
+}
+#a{
+	font-size: 20px;
+	background-color: blue;
+}
+#a img 
+{
+	width:20%;
+	height: 30%;
+	float: left;
+}
+
+img{
+	width:30%;
+	height: 50%;
+}
+
+#align img 
+{
+	width:20%;
+	height: 30%;
+	float: left;
+}

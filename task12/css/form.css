@@ -1,0 +1,30 @@
+body{
+	background-color:beige;
+}
+button{
+	background-color: grey;
+	  color: white;
+}
+.flex-container {
+  display: flex;
+}
+#a
+{
+margin-left: 137px;
+
+}
+.input1{
+	    width: 256px;
+}
+.input2{
+	    width: 256px;
+}
+.input3{
+	    width: 256px;
+}
+.input4{
+	    width: 170px;
+}
+.input5{
+	    width: 200px;
+}
