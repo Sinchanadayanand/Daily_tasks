@@ -1,0 +1,81 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  background-color: grey;
+  padding: 10px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: space-around;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  background-color: grey;
+  padding: 10px;
+  grid-template-rows:30px;
+  grid-gap: 10px;
+  justify-content: space-around;
+  text-align: center;
+}
+.grid-container > div{
+	background-color: white;
+	text-align: center;
+}
+
+.item8{
+	grid-column-start:1;
+}
+.item11{
+	grid-column-start:1;
+}
+.item14 {
+	grid-column-start:1;
+}
+
+
+.item17{
+	grid-column-start:2;
+}
+img{
+	border-radius: 50px;
+	height:40px;
+	width:40px;
+	float:right;
+}
+.item1{
+	border-left: solid 3px yellow; 
+}
+.item2{
+	border-left: solid 3px green; 
+}
+.item3{
+	border-left: solid 3px yellow; 
+}
+.item5{
+	border-left: solid 3px red; 
+}
+.item7{
+	border-left: solid 3px green; 
+}
+.item10{
+	border-left: solid 3px red; 
+}
+.item12{
+	border-left: solid 3px yellow; 
+}
+.item13{
+	border-left: solid 3px yellow; 
+}
+.item14{
+	border-left: solid 3px yellow; 
+}
+.item16{
+	border-left: solid 3px green; 
+}
+.item18{
+	border-left: solid 3px green; 
+}
+i{
+	float:left;
+	
+}
