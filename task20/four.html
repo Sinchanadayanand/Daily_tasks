@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<h1>get the total</h1>
+<input type="checkbox" id='c1' value="200" onclick="UpdateCost()">100
+<input type="checkbox" id='c2' value="300" onclick="UpdateCost()">200
+<input type="checkbox" id='c3' value="400" onclick="UpdateCost()">300<br>
+<input type="checkbox" id='c4' value="500" onclick="UpdateCost()">400
+<input type="checkbox" id='c5' value="600" onclick="UpdateCost()">500
+<input type="checkbox" id='c6' value="700" onclick="UpdateCost()">600<br><br><br>
+<button class="button" type="button">unselect all</button>
+<button class="button" type="button">select all</button><br><br>
+<button class="button" type="submit">select all</button>
+</body>
+
+<script type="text/javascript">
+function UpdateCost() {
+  var sum = 0;
+  var sel = document.getElementById('demo').getElementsByTagName('input');
+  for (i=0; i<sel.length; i++) {
+    if (sel[i].checked == true) { sum += Number(sel[i].value); }
+  } document.getElementById('totalcost').value = sum.toFixed(2);
+} 
+
+window.onload = function() {
+  var sel = document.getElementById('demo').getElementsByTagName('input');
+  for (var i=0; i<sel.length; i++) {
+    sel[i].onclick = function () { UpdateCost(); }
+  }
+}
+</script>
+</body>
+</html>
